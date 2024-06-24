@@ -4,7 +4,7 @@ import argparse
 
 def generateText(sentences):
     """
-    sentences : These are list of sentence on which we want sentiment score
+    sentences : These are list of sentence on which we want text generation
     """
 
     gen = pipeline("text-generation", model = "gpt2")
